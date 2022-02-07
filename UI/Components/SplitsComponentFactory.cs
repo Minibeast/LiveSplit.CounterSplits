@@ -15,10 +15,10 @@ namespace LiveSplit.UI.Components
 
         public string UpdateName => ComponentName;
 
-        public string XMLURL => "";
+        public string XMLURL => "https://minibeast.github.io/files/LiveSplit.CounterSplits/update.LiveSplit.CounterSplits.xml";
 
-        public string UpdateURL => "";
+        public string UpdateURL => "https://minibeast.github.io/files/";
 
-        public Version Version => Version.Parse("1.8.10");
+        public Version Version => Version.Parse("1.0.0");
     }
 }
